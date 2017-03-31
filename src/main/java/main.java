@@ -83,6 +83,7 @@ public class main {
     }
 
     private static WebDriver setUp() {
+        //TODO you have to download the crhomedriver and copy the route in order to execute it
         System.setProperty("webdriver.chrome.driver", "C:/Users/salveara/Documents/Programs/chromedriver.exe");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         ChromeOptions options = new ChromeOptions();
