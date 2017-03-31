@@ -17,7 +17,8 @@ public class main {
             personSkills(driver);
         } finally {
             if (driver != null) {
-                //driver.quit();
+                //TODO you have to comment this if you want to keep the chrome opens
+                driver.quit();
             }
         }
     }
